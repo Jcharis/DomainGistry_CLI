@@ -1,8 +1,9 @@
 ## Domain-Gistry - A Domain Name Generation CLI
++ Generate Domain Names with ease
 
 
 #### Part of DomainGistry Suite of Tools
-+ DomainGistry Pkg
+- DomainGistry Pkg
 - Domain-Gisty CLI
 - DomainGistry.js
 - DomainGistry.jl
@@ -18,7 +19,7 @@
 
 + Using Pip
 ```bash
-tall domain-gistry
+pip install domain-gistry
 ```
 
 
@@ -27,7 +28,7 @@ tall domain-gistry
 + Change into directory
 + Type the following to install
 ```bash
-tall -e .
+pip install -e .
 ```
 
 ### Usage
@@ -37,7 +38,7 @@ tall -e .
 domain-gistry --help
 ```
 
-#### Local Usage If You Used Repository
+#### Local Usage If You Used The Repository to Install
 ```bash
 python domain-gistry.py --help
 ```
@@ -65,7 +66,7 @@ domain-gistry.py generate "yourdomainname" --category common --save yes
 ```
 
 ##### Screenshot
-![](images/image.png)
+![](images/image_01.png)
 
 #### Generating Domain Names By Category 
 + [Common | Extra | New | Prefixed | Suffixed]
